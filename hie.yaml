@@ -1,0 +1,13 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:domain-no-deriving-strategy"
+
+    - path: "./app"
+      component: "domain-no-deriving-strategy:exe:domain-no-deriving-strategy"
+
+    - path: "./test"
+      component: "domain-no-deriving-strategy:test:domain-no-deriving-strategy-test"
+
+    - path: "./benchmark"
+      component: "domain-no-deriving-strategy:bench:domain-no-deriving-strategy-benchmark"
