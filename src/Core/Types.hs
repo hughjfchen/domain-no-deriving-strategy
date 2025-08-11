@@ -1,6 +1,5 @@
 {-# LANGUAGE NoDerivingStrategies #-}
 {-# OPTIONS_GHC -Wno-type-equality-requires-operators #-}
---{-# OPTIONS_GHC -Wno-missing-deriving-strategies #-}
 module Core.Types
   (SystemInfo(..),
    LoginReq(..),

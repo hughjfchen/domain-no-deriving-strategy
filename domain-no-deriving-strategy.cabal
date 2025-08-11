@@ -99,7 +99,6 @@ executable domain-no-deriving-strategy
   main-is:             Main.hs
   other-modules:       Paths_session_manager
   build-depends:       domain-no-deriving-strategy
-                     , common
                      , optparse-applicative ^>= 0.16.1.0
                      , fast-logger
                      , time
@@ -108,12 +107,7 @@ executable domain-no-deriving-strategy
                      , aeson
                      , lens
                      , lens-aeson
-                     , wreq ^>=0.5.4.2
                      , base64-bytestring
-                     , streamly-core
-                     , streamly
-                     , amqp
-                     , amqp-streamly
   ghc-options:         -threaded
                        -rtsopts
                        -with-rtsopts=-N
